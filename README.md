@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Edie Homepage</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://durashere.github.io/devchallenges-edie-homepage/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/durashere/devchallenges-edie-homepage">
       Solution
     </a>
     <span> | </span>
@@ -65,11 +65,12 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/durashere/devchallenges-edie-homepage
 
 # Install dependencies
 $ npm install
+$ yarn
 
-# Run the app
-$ npm start
+# Build css if broken
+$ npx tailwindcss-cli@latest build -o styles/tailwind.css
 ```
